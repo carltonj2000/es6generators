@@ -1,0 +1,13 @@
+{
+  "name": "es6generators",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "startdb": "nodemon --inspect-brk index.js"
+  }
+}
